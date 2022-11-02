@@ -22,8 +22,8 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/logs"
+	"github.com/NewsYoung/go-containerregistry/pkg/authn"
+	"github.com/NewsYoung/go-containerregistry/pkg/logs"
 	"golang.org/x/oauth2"
 	googauth "golang.org/x/oauth2/google"
 )
@@ -129,12 +129,12 @@ func (tsa *tokenSourceAuth) Authorization() (*authn.AuthConfig, error) {
 //
 // `gcloud config config-helper --format=json(credential)` looks something like:
 //
-// {
-//   "credential": {
-//     "access_token": "ya29.abunchofnonsense",
-//     "token_expiry": "2018-12-02T04:08:13Z"
-//   }
-// }
+//	{
+//	  "credential": {
+//	    "access_token": "ya29.abunchofnonsense",
+//	    "token_expiry": "2018-12-02T04:08:13Z"
+//	  }
+//	}
 type gcloudOutput struct {
 	Credential struct {
 		AccessToken string `json:"access_token"`

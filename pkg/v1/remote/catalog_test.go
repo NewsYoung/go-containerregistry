@@ -23,8 +23,8 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/go-containerregistry/pkg/name"
 )
 
 func TestCatalogPage(t *testing.T) {

@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/google/go-containerregistry/internal/verify"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	"github.com/NewsYoung/go-containerregistry/internal/verify"
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/partial"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/types"
 )
 
 var acceptableIndexMediaTypes = []types.MediaType{
@@ -194,10 +194,12 @@ func (r *remoteIndex) imageByPlatform(platform v1.Platform) (v1.Image, error) {
 // This naively matches the first manifest with matching platform attributes.
 //
 // We should probably use this instead:
-//	 github.com/containerd/containerd/platforms
+//
+//	github.com/containerd/containerd/platforms
 //
 // But first we'd need to migrate to:
-//   github.com/opencontainers/image-spec/specs-go/v1
+//
+//	github.com/opencontainers/image-spec/specs-go/v1
 func (r *remoteIndex) childByPlatform(platform v1.Platform) (*Descriptor, error) {
 	index, err := r.IndexManifest()
 	if err != nil {

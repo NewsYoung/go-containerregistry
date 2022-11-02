@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/NewsYoung/go-containerregistry/pkg/crane"
 )
 
 func TestLayer(t *testing.T) {

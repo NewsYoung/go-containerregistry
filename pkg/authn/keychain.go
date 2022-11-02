@@ -19,10 +19,10 @@ import (
 	"path/filepath"
 	"sync"
 
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
 	"github.com/docker/cli/cli/config"
 	"github.com/docker/cli/cli/config/configfile"
 	"github.com/docker/cli/cli/config/types"
-	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/mitchellh/go-homedir"
 )
 

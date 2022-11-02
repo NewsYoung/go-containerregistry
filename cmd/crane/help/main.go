@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/google/go-containerregistry/cmd/crane/cmd"
+	"github.com/NewsYoung/go-containerregistry/cmd/crane/cmd"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 )

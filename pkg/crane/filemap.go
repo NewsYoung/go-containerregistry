@@ -21,10 +21,10 @@ import (
 	"io/ioutil"
 	"sort"
 
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/empty"
-	"github.com/google/go-containerregistry/pkg/v1/mutate"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/empty"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/mutate"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/tarball"
 )
 
 // Layer creates a layer from a single file map. These layers are reproducible and consistent.

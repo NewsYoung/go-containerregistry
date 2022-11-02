@@ -4,7 +4,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//    http://www.apache.org/licenses/LICENSE-2.0
+//	http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -21,12 +21,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/registry"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/random"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
+	"github.com/NewsYoung/go-containerregistry/pkg/registry"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/random"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/remote"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/types"
 )
 
 func TestCopySchema1(t *testing.T) {

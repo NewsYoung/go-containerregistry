@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/registry"
-	"github.com/google/go-containerregistry/pkg/v1/random"
+	"github.com/NewsYoung/go-containerregistry/pkg/crane"
+	"github.com/NewsYoung/go-containerregistry/pkg/registry"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/random"
 )
 
 func TestEditConfig(t *testing.T) {

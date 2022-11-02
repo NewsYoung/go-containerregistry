@@ -20,8 +20,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/types"
 )
 
 // NewLayer returns a layer containing the given bytes, with the given mediaType.

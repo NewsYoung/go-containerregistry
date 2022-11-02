@@ -25,11 +25,11 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/NewsYoung/go-containerregistry/internal/redact"
+	"github.com/NewsYoung/go-containerregistry/pkg/authn"
+	"github.com/NewsYoung/go-containerregistry/pkg/logs"
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
 	authchallenge "github.com/docker/distribution/registry/client/auth/challenge"
-	"github.com/google/go-containerregistry/internal/redact"
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/logs"
-	"github.com/google/go-containerregistry/pkg/name"
 )
 
 type bearerTransport struct {

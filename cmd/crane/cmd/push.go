@@ -19,12 +19,12 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/layout"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
+	"github.com/NewsYoung/go-containerregistry/pkg/crane"
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/layout"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/partial"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/remote"
 	"github.com/spf13/cobra"
 )
 

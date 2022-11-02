@@ -19,11 +19,11 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/NewsYoung/go-containerregistry/internal/cmd"
+	"github.com/NewsYoung/go-containerregistry/pkg/crane"
+	"github.com/NewsYoung/go-containerregistry/pkg/logs"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/remote"
 	"github.com/docker/cli/cli/config"
-	"github.com/google/go-containerregistry/internal/cmd"
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/logs"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
 	"github.com/spf13/cobra"
 )
 

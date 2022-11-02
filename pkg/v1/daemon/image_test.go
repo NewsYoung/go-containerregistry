@@ -24,11 +24,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/NewsYoung/go-containerregistry/internal/compare"
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/tarball"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/validate"
 	"github.com/docker/docker/api/types"
-	"github.com/google/go-containerregistry/internal/compare"
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
-	"github.com/google/go-containerregistry/pkg/v1/validate"
 )
 
 var imagePath = "../tarball/testdata/test_image_1.tar"

@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/NewsYoung/go-containerregistry/pkg/logs"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/types"
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/go-containerregistry/pkg/logs"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/types"
 )
 
 // Index validates that idx does not violate any invariants of the index format.

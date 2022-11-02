@@ -23,11 +23,11 @@ import (
 	"os"
 	"strings"
 
+	"github.com/NewsYoung/go-containerregistry/pkg/authn"
+	"github.com/NewsYoung/go-containerregistry/pkg/crane"
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
 	"github.com/docker/cli/cli/config"
 	"github.com/docker/cli/cli/config/types"
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/spf13/cobra"
 )
 

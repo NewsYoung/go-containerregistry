@@ -17,11 +17,11 @@ package partial_test
 import (
 	"testing"
 
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/mutate"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/random"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/mutate"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/partial"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/random"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/types"
 )
 
 func TestFindManifests(t *testing.T) {

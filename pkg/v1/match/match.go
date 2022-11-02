@@ -16,7 +16,7 @@
 package match
 
 import (
-	v1 "github.com/google/go-containerregistry/pkg/v1"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
 	imagespec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 
@@ -25,7 +25,9 @@ import (
 type Matcher func(desc v1.Descriptor) bool
 
 // Name returns a match.Matcher that matches based on the value of the
-//  "org.opencontainers.image.ref.name" annotation:
+//
+//	"org.opencontainers.image.ref.name" annotation:
+//
 // github.com/opencontainers/image-spec/blob/v1.0.1/annotations.md#pre-defined-annotation-keys
 func Name(name string) Matcher {
 	return Annotation(imagespec.AnnotationRefName, name)

@@ -19,15 +19,15 @@ import (
 	"io/ioutil"
 	"os"
 
+	"github.com/NewsYoung/go-containerregistry/cmd/crane/cmd"
+	"github.com/NewsYoung/go-containerregistry/internal/signal"
+	"github.com/NewsYoung/go-containerregistry/pkg/authn"
+	"github.com/NewsYoung/go-containerregistry/pkg/authn/github"
+	"github.com/NewsYoung/go-containerregistry/pkg/crane"
+	"github.com/NewsYoung/go-containerregistry/pkg/logs"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/google"
 	ecr "github.com/awslabs/amazon-ecr-credential-helper/ecr-login"
 	"github.com/chrismellard/docker-credential-acr-env/pkg/credhelper"
-	"github.com/google/go-containerregistry/cmd/crane/cmd"
-	"github.com/google/go-containerregistry/internal/signal"
-	"github.com/google/go-containerregistry/pkg/authn"
-	"github.com/google/go-containerregistry/pkg/authn/github"
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/logs"
-	"github.com/google/go-containerregistry/pkg/v1/google"
 )
 
 var (

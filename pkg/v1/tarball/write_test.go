@@ -26,14 +26,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/go-containerregistry/internal/compare"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/mutate"
-	"github.com/google/go-containerregistry/pkg/v1/random"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
-	"github.com/google/go-containerregistry/pkg/v1/types"
-	"github.com/google/go-containerregistry/pkg/v1/validate"
+	"github.com/NewsYoung/go-containerregistry/internal/compare"
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/mutate"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/random"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/tarball"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/types"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/validate"
 )
 
 func TestWrite(t *testing.T) {
@@ -381,7 +381,7 @@ func TestWriteSharedLayers(t *testing.T) {
 func TestComputeManifest(t *testing.T) {
 	var randomTag, mutatedTag = "ubuntu", "gcr.io/baz/bat:latest"
 
-	// https://github.com/google/go-containerregistry/issues/890
+	// https://github.com/NewsYoung/go-containerregistry/issues/890
 	randomTagWritten := "ubuntu:latest"
 
 	// Make a random image

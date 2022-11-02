@@ -18,12 +18,12 @@ import (
 	"context"
 	"os"
 
-	"github.com/google/go-containerregistry/cmd/crane/cmd"
-	gcmd "github.com/google/go-containerregistry/cmd/gcrane/cmd"
-	"github.com/google/go-containerregistry/internal/signal"
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/gcrane"
-	"github.com/google/go-containerregistry/pkg/logs"
+	"github.com/NewsYoung/go-containerregistry/cmd/crane/cmd"
+	gcmd "github.com/NewsYoung/go-containerregistry/cmd/gcrane/cmd"
+	"github.com/NewsYoung/go-containerregistry/internal/signal"
+	"github.com/NewsYoung/go-containerregistry/pkg/crane"
+	"github.com/NewsYoung/go-containerregistry/pkg/gcrane"
+	"github.com/NewsYoung/go-containerregistry/pkg/logs"
 	"github.com/spf13/cobra"
 )
 

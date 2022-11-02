@@ -23,12 +23,12 @@ import (
 	"os"
 	"sync"
 
+	"github.com/NewsYoung/go-containerregistry/internal/and"
+	gestargz "github.com/NewsYoung/go-containerregistry/internal/estargz"
+	ggzip "github.com/NewsYoung/go-containerregistry/internal/gzip"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/types"
 	"github.com/containerd/stargz-snapshotter/estargz"
-	"github.com/google/go-containerregistry/internal/and"
-	gestargz "github.com/google/go-containerregistry/internal/estargz"
-	ggzip "github.com/google/go-containerregistry/internal/gzip"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/types"
 )
 
 type layer struct {
@@ -196,6 +196,7 @@ func LayerFromFile(path string, opts ...LayerOption) (v1.Layer, error) {
 // the uncompressed path may end up gzipping things multiple times:
 //  1. Compute the layer SHA256
 //  2. Upload the compressed layer.
+//
 // Since gzip can be expensive, we support an option to memoize the
 // compression that can be passed here: tarball.WithCompressedCaching
 func LayerFromOpener(opener Opener, opts ...LayerOption) (v1.Layer, error) {

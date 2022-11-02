@@ -17,13 +17,13 @@ package main
 import (
 	"testing"
 
-	"github.com/google/go-containerregistry/internal/depcheck"
+	"github.com/NewsYoung/go-containerregistry/internal/depcheck"
 )
 
 func TestDeps(t *testing.T) {
 	depcheck.AssertNoDependency(t, map[string][]string{
-		"github.com/google/go-containerregistry/cmd/crane": {
-			"github.com/google/go-containerregistry/pkg/v1/daemon",
+		"github.com/NewsYoung/go-containerregistry/cmd/crane": {
+			"github.com/NewsYoung/go-containerregistry/pkg/v1/daemon",
 		},
 	})
 }

@@ -21,8 +21,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/types"
 )
 
 // WithRawConfigFile defines the subset of v1.Image used by these helper methods

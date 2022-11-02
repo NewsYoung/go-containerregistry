@@ -21,7 +21,7 @@ import (
 	"compress/gzip"
 	"io"
 
-	"github.com/google/go-containerregistry/internal/and"
+	"github.com/NewsYoung/go-containerregistry/internal/and"
 )
 
 var gzipMagicHeader = []byte{'\x1f', '\x8b'}
@@ -136,7 +136,7 @@ func Peek(r io.Reader) (bool, PeekReader, error) {
 	}
 	header, err := pr.Peek(2)
 	if err != nil {
-		// https://github.com/google/go-containerregistry/issues/367
+		// https://github.com/NewsYoung/go-containerregistry/issues/367
 		if err == io.EOF {
 			return false, pr, nil
 		}

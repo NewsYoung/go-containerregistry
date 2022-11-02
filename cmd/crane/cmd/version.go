@@ -8,7 +8,7 @@ import (
 )
 
 // Version can be set via:
-// -ldflags="-X 'github.com/google/go-containerregistry/cmd/crane/cmd.Version=$TAG'"
+// -ldflags="-X 'github.com/NewsYoung/go-containerregistry/cmd/crane/cmd.Version=$TAG'"
 var Version string
 
 func init() {

@@ -18,9 +18,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/google/go-containerregistry/cmd/crane/cmd"
-	"github.com/google/go-containerregistry/internal/signal"
-	"github.com/google/go-containerregistry/pkg/logs"
+	"github.com/NewsYoung/go-containerregistry/cmd/crane/cmd"
+	"github.com/NewsYoung/go-containerregistry/internal/signal"
+	"github.com/NewsYoung/go-containerregistry/pkg/logs"
 )
 
 func init() {

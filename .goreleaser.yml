@@ -17,8 +17,8 @@ builds:
   ldflags:
     - -s
     - -w
-    - -X github.com/google/go-containerregistry/cmd/crane/cmd.Version={{.Version}}
-    - -X github.com/google/go-containerregistry/pkg/v1/remote/transport.Version={{.Version}}
+    - -X github.com/NewsYoung/go-containerregistry/cmd/crane/cmd.Version={{.Version}}
+    - -X github.com/NewsYoung/go-containerregistry/pkg/v1/remote/transport.Version={{.Version}}
   goarch:
     - amd64
     - arm
@@ -43,8 +43,8 @@ builds:
   ldflags:
     - -s
     - -w
-    - -X github.com/google/go-containerregistry/cmd/crane/cmd.Version={{.Version}}
-    - -X github.com/google/go-containerregistry/pkg/v1/remote/transport.Version={{.Version}}
+    - -X github.com/NewsYoung/go-containerregistry/cmd/crane/cmd.Version={{.Version}}
+    - -X github.com/NewsYoung/go-containerregistry/pkg/v1/remote/transport.Version={{.Version}}
   goarch:
     - amd64
     - arm
@@ -70,8 +70,8 @@ builds:
   ldflags:
     - -s
     - -w
-    - -X github.com/google/go-containerregistry/cmd/crane/cmd.Version={{.Version}}
-    - -X github.com/google/go-containerregistry/pkg/v1/remote/transport.Version={{.Version}}
+    - -X github.com/NewsYoung/go-containerregistry/cmd/crane/cmd.Version={{.Version}}
+    - -X github.com/NewsYoung/go-containerregistry/pkg/v1/remote/transport.Version={{.Version}}
   goarch:
     - amd64
     - arm

@@ -21,14 +21,14 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
+	"github.com/NewsYoung/go-containerregistry/pkg/registry"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/empty"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/mutate"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/remote"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/registry"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/empty"
-	"github.com/google/go-containerregistry/pkg/v1/mutate"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
 )
 
 func TestStringSet(t *testing.T) {

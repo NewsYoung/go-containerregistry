@@ -22,10 +22,10 @@ import (
 	"os"
 	"testing"
 
+	"github.com/NewsYoung/go-containerregistry/internal/compare"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/types"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/validate"
 	"github.com/containerd/stargz-snapshotter/estargz"
-	"github.com/google/go-containerregistry/internal/compare"
-	"github.com/google/go-containerregistry/pkg/v1/types"
-	"github.com/google/go-containerregistry/pkg/v1/validate"
 )
 
 func TestLayerFromFile(t *testing.T) {

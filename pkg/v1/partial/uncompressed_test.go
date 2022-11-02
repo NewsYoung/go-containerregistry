@@ -20,16 +20,16 @@ import (
 	"os"
 	"testing"
 
-	"github.com/google/go-containerregistry/internal/compare"
-	legacy "github.com/google/go-containerregistry/pkg/legacy/tarball"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/mutate"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/random"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
-	"github.com/google/go-containerregistry/pkg/v1/types"
-	"github.com/google/go-containerregistry/pkg/v1/validate"
+	"github.com/NewsYoung/go-containerregistry/internal/compare"
+	legacy "github.com/NewsYoung/go-containerregistry/pkg/legacy/tarball"
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/mutate"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/partial"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/random"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/tarball"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/types"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/validate"
 )
 
 // foreignLayer implements both partial.Describable and partial.UncompressedLayer.

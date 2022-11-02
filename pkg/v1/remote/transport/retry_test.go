@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/go-containerregistry/internal/retry"
+	"github.com/NewsYoung/go-containerregistry/internal/retry"
 )
 
 type mockTransport struct {

@@ -17,19 +17,19 @@ package registry
 import (
 	"testing"
 
-	"github.com/google/go-containerregistry/internal/depcheck"
+	"github.com/NewsYoung/go-containerregistry/internal/depcheck"
 )
 
 func TestDeps(t *testing.T) {
 	depcheck.AssertOnlyDependencies(t, map[string][]string{
-		"github.com/google/go-containerregistry/pkg/registry": append(
+		"github.com/NewsYoung/go-containerregistry/pkg/registry": append(
 			depcheck.StdlibPackages(),
-			"github.com/google/go-containerregistry/internal/httptest",
-			"github.com/google/go-containerregistry/pkg/v1",
-			"github.com/google/go-containerregistry/pkg/v1/types",
+			"github.com/NewsYoung/go-containerregistry/internal/httptest",
+			"github.com/NewsYoung/go-containerregistry/pkg/v1",
+			"github.com/NewsYoung/go-containerregistry/pkg/v1/types",
 
-			"github.com/google/go-containerregistry/internal/verify",
-			"github.com/google/go-containerregistry/internal/and",
+			"github.com/NewsYoung/go-containerregistry/internal/verify",
+			"github.com/NewsYoung/go-containerregistry/internal/and",
 		),
 	})
 }

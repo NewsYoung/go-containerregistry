@@ -19,8 +19,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/google/go-containerregistry/pkg/v1/cache"
-	"github.com/google/go-containerregistry/pkg/v1/random"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/cache"
+	"github.com/NewsYoung/go-containerregistry/pkg/v1/random"
 )
 
 func ExampleImage() {

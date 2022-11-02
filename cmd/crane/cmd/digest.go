@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/NewsYoung/go-containerregistry/pkg/crane"
 	"github.com/spf13/cobra"
 )
 

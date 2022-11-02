@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/google/go-containerregistry/pkg/registry"
+	"github.com/NewsYoung/go-containerregistry/pkg/registry"
 )
 
 const (

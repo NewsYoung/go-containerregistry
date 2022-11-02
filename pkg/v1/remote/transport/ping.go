@@ -23,8 +23,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/NewsYoung/go-containerregistry/pkg/name"
 	authchallenge "github.com/docker/distribution/registry/client/auth/challenge"
-	"github.com/google/go-containerregistry/pkg/name"
 )
 
 type challenge string

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	v1 "github.com/google/go-containerregistry/pkg/v1"
+	v1 "github.com/NewsYoung/go-containerregistry/pkg/v1"
 )
 
 type platformValue struct {
